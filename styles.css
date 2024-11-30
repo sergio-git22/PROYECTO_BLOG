@@ -1,0 +1,80 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#foto-pilotos {
+    width: 100%;
+    display: flex;
+}
+
+header h1 {
+    background-image: url(imagenes/bandera.jpg);
+    width: 100%;
+    color: darkred;
+    text-align: center;
+    padding: 30px;
+    font-size: 70px;
+}
+
+
+nav {
+    background-color: lightslategrey;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: darkred;
+}
+
+main {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.articulos {
+    display: grid;
+    width: 60%;
+}
+
+.articulo-contenido {
+    border: 1px light gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+.articulo-imagen {
+    width: 75px;
+    height: 75px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.imagen-aside {
+    width: 50px;
+    height: 50px;
+}
+
+aside {
+    float: right;
+    margin-left: 15px;
+}
