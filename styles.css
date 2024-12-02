@@ -61,12 +61,10 @@ main {
 }
 
 .articulo-imagen {
-    width: 75px;
-    height: 75px;
     float: right;
     display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 aside {
@@ -82,8 +80,10 @@ aside h2 {
 }
 
 .imagen-aside {
-    width: 50px;
-    height: 50px;
+    display: flex;
+    float: right;
+    width: 100px;
+    height: 80px;
 }
 
 .articulo-aside {
@@ -101,10 +101,20 @@ footer {
 
 .base-footer {
     display: flex;
+    justify-content: space-between;
+}
+
+.redes p {
+    color: blue;
+}
+
+.redes p:hover {
+    color: darkred;
 }
 
 button {
     background-color: white;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
 }
