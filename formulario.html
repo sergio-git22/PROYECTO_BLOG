@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles_form.css">
+</head>
+<body>
+    <h3>SERVICIO CLIENTE - CONTACTO</h3>
+
+    <div class="container">
+        <form action="destinoform.html">
+            <fieldset>
+                <legend>FORMULARIO DE CONTACTO</legend>
+        <div class="principal">
+            <label for="select">Asunto</label>
+            <select id="asunto" name="Asunto" required>
+                <option></option>
+                <option value="Información">Información</option>
+                <option value="Suscripciones">Suscripciones</option>
+                <option value="Empleo">Empleo</option>
+                <option value="Colaboraciones">Colaboraciones</option>
+            </select>
+
+            <br/>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="Email" placeholder="ejemplo: motogp@gmail.com" required>
+
+            <br/>
+
+            <label for="number">Referencia de pedido</label>
+            <input type="number" name="Referencia de pedido" required>
+
+            <br/>
+
+            <input type="checkbox"><sub>He leído y acepto la <strong>política de privacidad.</strong></sub>
+
+            <br/>
+
+            <label for="file">Archivo</label>
+            <input type="file" name="Archivo">
+
+            <br/>
+
+            <button type="reset">Limpiar</button>
+            <button type="send" name="Enviar">Enviar</button>
+
+        </div>
+
+        <aside>
+            <label for="textarea">Mensaje</label>
+            <textarea rows="4" cols="40" placeholder="¡Hola! Todas las preguntas son bienvenidas"></textarea>
+        </aside>
+
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
