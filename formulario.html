@@ -4,7 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles_form.css">
+    <style>
+        body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+h3 {
+    margin-top: 5%;
+}
+
+form {
+    text-align: center;
+    width: 50%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+    </style>
 </head>
 <body>
     <h3>SERVICIO CLIENTE - CONTACTO</h3>
@@ -24,35 +47,41 @@
             </select>
 
             <br/>
+            <br/>
 
             <label for="email">Correo electrónico</label>
             <input type="email" name="Email" placeholder="ejemplo: motogp@gmail.com" required>
 
+            <br/>
             <br/>
 
             <label for="number">Referencia de pedido</label>
             <input type="number" name="Referencia de pedido" required>
 
             <br/>
+            <br/>
 
             <input type="checkbox"><sub>He leído y acepto la <strong>política de privacidad.</strong></sub>
 
+            <br/>
             <br/>
 
             <label for="file">Archivo</label>
             <input type="file" name="Archivo">
 
             <br/>
+            <br/>
+
+            <label for="textarea">Mensaje</label>
+            <textarea rows="4" cols="40" placeholder="¡Hola! Todas las preguntas son bienvenidas"></textarea>
+
+            <br/>
+            <br/>
 
             <button type="reset">Limpiar</button>
             <button type="send" name="Enviar">Enviar</button>
 
         </div>
-
-        <aside>
-            <label for="textarea">Mensaje</label>
-            <textarea rows="4" cols="40" placeholder="¡Hola! Todas las preguntas son bienvenidas"></textarea>
-        </aside>
 
             </fieldset>
         </form>
